@@ -29,7 +29,7 @@ def basic_stats (student_list_in):
     # Uses statistics module to find median of grades
     mode = statistics.mode(grade)
     # Uses statistics modules to find mode of grades
-    tuple = round(mean,2), round(median, 2), round(mode, 2)
+    tuple = (mean), (median), (mode)
     # Creates object "tuple" to recieve mean, median, mode
     return tuple
     # Return tuple
